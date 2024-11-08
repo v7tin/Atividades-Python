@@ -1,0 +1,9 @@
+# Autor: Vinicius
+soma = 0
+
+# Itera sobre os números de 1 a 50 e acumula os pares
+for i in range(1, 51):
+    if i % 2 == 0:
+        soma += i
+
+print("A soma dos números pares entre 1 e 50 é:", soma)
